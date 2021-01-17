@@ -1,4 +1,1 @@
-export { default as daggy } from 'https://jspm.dev/daggy'
-
-
-
+export { default as daggy } from "https://jspm.dev/daggy";
