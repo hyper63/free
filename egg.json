@@ -1,10 +1,16 @@
 {
   "name": "free",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Free ADT for separating interface from business logic",
+  "stable": true,
   "entry": "./mod.js",
   "files": [
     "./README.md",
     "./deps.js"
-  ]
+  ],
+  "check": true,
+  "homepage": "https://github.com/hyper63/free",
+  "ignore": [],
+  "unlisted": false,
+  "repo": "https://github.com/hyper63/free"
 }
