@@ -67,5 +67,5 @@ MIT
 
 ## Acknowledgements
 
-The core code for this library was initiated from code shared by Brian Londorf in a course from frontend masters. If you want to learn more about functional programming in javascript check it out: https://frontendmasters.com/courses/hardcore-js-v2/
+The core code for this library was initiated from code shared by Brian Lonsdorf in a course from frontend masters. If you want to learn more about functional programming in javascript check it out: https://frontendmasters.com/courses/hardcore-js-v2/
 
