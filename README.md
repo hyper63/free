@@ -25,7 +25,7 @@
 
 ```js
 import { Task } from 'https://x.nest.land/task@1.0.0/mod.js'
-import { liftF } from 'https://x.nest.land/free@1.0.0/mod.js'
+import { liftF } from 'https://x.nest.land/free@1.0.2/mod.js'
 
 liftF(Task.of(() => Promise.resolve(':tada:')))
 .fold(
@@ -45,7 +45,7 @@ https://nest.land/package/free
 deps.js
 
 ```
-export { liftF } from 'https://x.nest.land/free@1.0.0/mod.js'
+export { liftF } from 'https://x.nest.land/free@1.0.2/mod.js'
 ```
 
 ## Features
