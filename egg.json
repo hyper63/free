@@ -1,0 +1,10 @@
+{
+  "name": "free",
+  "version": "1.0.1",
+  "description": "Free ADT for separating interface from business logic",
+  "entry": "./mod.js",
+  "files": [
+    "./README.md",
+    "./deps.js"
+  ]
+}
