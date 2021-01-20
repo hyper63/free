@@ -1,9 +1,15 @@
 import { daggy } from "./deps.js";
 
+/**
+ * @typedef {Object} Free
+ * @property {function} Impure
+ * @property {function} Pure
+ */
 export const Free = daggy.taggedSum("Free", {
   Impure: ["x", "f"],
   Pure: ["x"],
 });
+
 
 Free.of = Free.Pure;
 
@@ -34,6 +40,10 @@ Free.prototype.chain = function (f) {
   });
 };
 
+/**
+ * @param {any} command
+ * @returns {Free}
+ */
 export const liftF = (command) => Free.Impure(command, Free.Pure);
 
 Free.prototype.foldMap = function (interpreter, of) {
