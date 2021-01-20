@@ -10,7 +10,6 @@ export const Free = daggy.taggedSum("Free", {
   Pure: ["x"],
 });
 
-
 Free.of = Free.Pure;
 
 const kleisli_comp = (f, g) => (x) => f(x).chain(g);
